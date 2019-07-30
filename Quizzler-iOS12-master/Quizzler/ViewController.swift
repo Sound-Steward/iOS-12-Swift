@@ -24,8 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let firstQuestion = allQuestions.list[0]
-        questionLabel.text = firstQuestion.questionText
+        nextQuestion()
         
     }
 
@@ -34,8 +33,7 @@ class ViewController: UIViewController {
 
         if sender.tag == 1 {
             pickedAnswer = true
-        }
-        else if sender.tag == 2 {
+        } else if sender.tag == 2 {
             pickedAnswer = false
         }
         
