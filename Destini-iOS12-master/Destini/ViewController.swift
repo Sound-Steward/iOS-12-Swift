@@ -47,7 +47,6 @@ class ViewController: UIViewController {
         restart()
         
     }
-
     
     // User presses one of the buttons
     @IBAction func buttonPressed(_ sender: UIButton) {
